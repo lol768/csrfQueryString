@@ -1,0 +1,16 @@
+{
+  "name": "csrfQueryString",
+  "version": "1.0.0",
+  "description": "Test app to check a query string CSRF token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam",
+  "license": "GPLv3",
+  "dependencies": {
+    "csurf": "^1.8.3",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0"
+  }
+}
